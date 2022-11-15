@@ -1,8 +1,13 @@
 #using for loop
-days = ["mon,tue,wed,thurs,fri"]
 
-for f in days:
-    print(f)
+days =["mon","tues","wed","thurs","fri"]
+
+for d in days:
+    if d== "thurs": break
+
+    print(d)
+
+
 
 
 
